@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, useScroll, useSpring, AnimatePresence, Variants } from 'framer-motion';
 
@@ -10,6 +9,7 @@ import ConsumerInsights from './components/sections/ConsumerInsights';
 import FarmnetSolution from './components/sections/FarmnetSolution';
 import FarmnetFeatures from './components/sections/FarmnetFeatures';
 import ImplementationPath from './components/sections/ImplementationPath';
+import Conclusion from './components/sections/Conclusion';
 
 const sections = [
   { component: Introduction, name: 'The 8% Mandate' },
@@ -20,6 +20,7 @@ const sections = [
   { component: FarmnetSolution, name: 'The Solution: FARMNET' },
   { component: FarmnetFeatures, name: 'How FARMNET Works' },
   { component: ImplementationPath, name: 'The Roadmap' },
+  { component: Conclusion, name: 'Conclusion' },
 ];
 
 
